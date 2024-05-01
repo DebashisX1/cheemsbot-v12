@@ -8005,15 +8005,15 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                 "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
+                "buttonParamsJson": `{"display_text":" All Menu 📁","id":"${prefix}allmenu"}`
               },
               {
                 "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
+                "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
               },
              {
                 "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
+                "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
               },
               {
                  "name": "cta_url",
@@ -8021,7 +8021,7 @@ let msg = generateWAMessageFromContent(from, {
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"AI Menu 🤖","id":"${prefix}aimenu"}`
    },
               {
                 "name": "quick_reply",
