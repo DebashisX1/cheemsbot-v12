@@ -26,7 +26,7 @@
       "badword": 0,
       "afkReason": "",
       "nick": "Raj",
-      "premium": "false",
+      "premium": false,
       "limit": 100,
       "totalLimit": 0
     },
@@ -92,7 +92,7 @@
       "badword": 0,
       "afkReason": "",
       "nick": "প্যারা+CETAMOL.650mg",
-      "premium": "false",
+      "premium": false,
       "limit": 100,
       "totalLimit": 0
     },
@@ -148,6 +148,39 @@
       "afkReason": "",
       "nick": "Rupam",
       "premium": "false",
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "917601897137@s.whatsapp.net": {
+      "serialNumber": "8126a7efef94c75bd8c5cb6f86522bef",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "[পুড়োনো✎﹏ডায়েরিƒさ",
+      "premium": "false",
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "919062628928@s.whatsapp.net": {
+      "serialNumber": "d79f702188a50b8e76d7ce9822cc7f46",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "+91 90626 28928",
+      "premium": "false",
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "918293435272@s.whatsapp.net": {
+      "serialNumber": "666f43d27c18eec448d29c8c70eb0fe4",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "~মিষ্টি 🍫",
+      "premium": false,
       "limit": 100,
       "totalLimit": 0
     }
@@ -240,7 +273,7 @@
   },
   "settings": {
     "918768298758@s.whatsapp.net": {
-      "totalhit": 19,
+      "totalhit": 34,
       "totalError": 0,
       "online": false,
       "autosticker": false,

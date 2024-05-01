@@ -3739,7 +3739,7 @@ break
                 break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 let me = m.sender
-let teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇 https://i.ibb.co/y6XmZ2b/donate.png`
+let teks = `*「  ${global.botname} Script 」*\n\n Facebook: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇 https://telegra.ph/file/561d9abf526067d54f6c0.jpg`
 sendXeonBotIncMessage(from, { 
 text: teks,
 mentions:[sender],
@@ -7782,72 +7782,72 @@ break
             let a = db.data.users[sender]
             let me = m.sender
             let xmenu_oh = `┌────────❖ 𝕮𝖍𝖊𝖊𝖒𝖘 𝕭𝖔𝖙 ❖────────┐
-            │ Hi 👋 
-            └┬❖  ${pushname} 
-                 │✑  ${xeonytimewisher} 😄
-            ┌┤✑ Use prefix ${prefix}
-            │└────────────┈ ⳹
-            │
-            └───❖ 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎
-            │ᴍᴇɴᴜᴛʏᴘᴇ : ${typemenu}
-            │sᴘᴇᴇᴅ      : ${latensie.toFixed(4)} miliseconds
-            │ʀᴜɴᴛɪᴍᴇ    : ${runtime(process.uptime())}
-            │ʙᴏᴛ‌: ${botname}
-            │ᴏᴡɴᴇʀ ɴᴏ.  : ${ownernumber}
-            │ᴘʀᴇғɪx‌     : ${xprefix} 
-            │ᴍᴏᴅᴇ   : ${XeonBotInc.public ? 'Public' : `Self`}
-            │ʜᴏsᴛ ɴᴀᴍᴇ : ${os.hostname()}
-            │ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ${ownername}
-            │ᴘʟᴀᴛғᴏʀᴍ‌    : ${os.platform()}
-            │‌ᴛᴏᴛᴀʟ ᴜsᴇʀ : ${Object.keys(global.db.data.users).length} User
-            │ᴛᴏᴛᴀʟ ʜɪᴛ  : ${global.db.data.settings[botNumber].totalhit} Hit
-            │ᴛᴏᴛᴀʟ ᴄʜᴀᴛ‌ : ${Object.keys(global.db.data.chats).length} Chat/Gc
-            │ᴀᴜᴛᴏsᴛᴀᴛᴜs ᴠɪᴇᴡ : ${autoswview} 
-            │ᴡᴇʟᴄᴏᴍᴇ sᴛᴀᴛᴜs : ${welcome}
-            │ᴛᴏᴛᴀʟ ғᴇᴀᴛᴜʀᴇs : ${xeonfeature()}
-            │
-            │
-            └──❖ 𝐔𝐒𝐄𝐑 𝐈𝐍𝐅𝐎
-            │ɴᴀᴍᴇ   ‌  : ${pushname}
-            │ɴᴜᴍʙᴇʀ   : +${me.split('@')[0]}
-            │ʟɪᴍɪᴛ    : ${a.limit}
-            │ᴛɪᴛʟᴇ    : ${a.title ? a.title : '-'}
-            │sᴇʀɪᴀʟ: ${a.serialNumber}
-            │
-            └──❖ 𝐓𝐈𝐌𝐄 𝐈𝐍𝐅𝐎
-            │ᴛɪᴍᴇ : ${xtime}
-            │ᴅᴀᴛᴇ : ${xdate}
-            └┬──────────────────────── ⳹
-               │✑  Please Type The *MENU*
-               │✑  Given *BELOW*
-            ┌└───────────────────────┈ ⳹
-            │❏${xprefix}𝐀𝐋𝐋𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐅𝐔𝐍𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐀𝐈𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐆𝐑𝐎𝐔𝐏𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐎𝐖𝐍𝐄𝐑𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐏𝐇𝐎𝐓𝐎𝐎𝐗𝐘𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐄𝐏𝐇𝐎𝐓𝐎𝟑𝟔𝟎𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐌𝐀𝐊𝐄𝐑𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐀𝐍𝐈𝐌𝐄𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐆𝐀𝐌𝐄𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐍𝐒𝐅𝐖𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐑𝐄𝐋𝐈𝐆𝐈𝐎𝐍𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐑𝐀𝐍𝐃𝐎𝐌𝐏𝐇𝐎𝐓𝐎𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐑𝐀𝐍𝐃𝐎𝐌𝐕𝐈𝐃𝐄𝐎𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐒𝐓𝐈𝐂𝐊𝐄𝐑𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐒𝐄𝐀𝐑𝐂𝐇𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐃𝐀𝐓𝐀𝐁𝐀𝐒𝐄𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐋𝐈𝐒𝐓𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐒𝐓𝐀𝐋𝐊𝐄𝐑𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐁𝐔𝐆𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐒𝐓𝐎𝐑𝐄𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐄𝐑𝐌𝐄𝐍𝐔
-            │❏${xprefix}𝐎𝐓𝐇𝐄𝐑𝐌𝐄𝐍𝐔
-            └───────────────────────┈ ⳹
+│ Hi 👋 
+└┬❖  ${pushname} 
+    │✑  ${xeonytimewisher} 😄
+┌┤✑ Use prefix ${prefix}
+│└────────────┈ ⳹
+│
+└───❖ 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎
+│ᴍᴇɴᴜᴛʏᴘᴇ : ${typemenu}
+│sᴘᴇᴇᴅ      : ${latensie.toFixed(4)} miliseconds
+│ʀᴜɴᴛɪᴍᴇ    : ${runtime(process.uptime())}
+│ʙᴏᴛ‌: ${botname}
+│ᴏᴡɴᴇʀ ɴᴏ.  : ${ownernumber}
+│ᴘʀᴇғɪx‌     : ${xprefix} 
+│ᴍᴏᴅᴇ   : ${XeonBotInc.public ? 'Public' : `Self`}
+│ʜᴏsᴛ ɴᴀᴍᴇ : ${os.hostname()}
+│ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ${ownername}
+│ᴘʟᴀᴛғᴏʀᴍ‌    : ${os.platform()}
+│‌ᴛᴏᴛᴀʟ ᴜsᴇʀ : ${Object.keys(global.db.data.users).length} User
+│ᴛᴏᴛᴀʟ ʜɪᴛ  : ${global.db.data.settings[botNumber].totalhit} Hit
+│ᴛᴏᴛᴀʟ ᴄʜᴀᴛ‌ : ${Object.keys(global.db.data.chats).length} Chat/Gc
+│ᴀᴜᴛᴏsᴛᴀᴛᴜs ᴠɪᴇᴡ : ${autoswview} 
+│ᴡᴇʟᴄᴏᴍᴇ sᴛᴀᴛᴜs : ${welcome}
+│ᴛᴏᴛᴀʟ ғᴇᴀᴛᴜʀᴇs : ${xeonfeature()}
+│
+│
+└──❖ 𝐔𝐒𝐄𝐑 𝐈𝐍𝐅𝐎
+│ɴᴀᴍᴇ   ‌  : ${pushname}
+│ɴᴜᴍʙᴇʀ   : +${me.split('@')[0]}
+│ʟɪᴍɪᴛ    : ${a.limit}
+│ᴛɪᴛʟᴇ    : ${a.title ? a.title : '-'}
+│sᴇʀɪᴀʟ: ${a.serialNumber}
+│
+└──❖ 𝐓𝐈𝐌𝐄 𝐈𝐍𝐅𝐎
+│ᴛɪᴍᴇ : ${xtime}
+│ᴅᴀᴛᴇ : ${xdate}
+└┬──────────────────────── ⳹
+   │✑  Please Type The *MENU*
+   │✑  Given *BELOW*
+  ┌└───────────────────────┈ ⳹
+  │❏${xprefix}𝐀𝐋𝐋𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐅𝐔𝐍𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐀𝐈𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐆𝐑𝐎𝐔𝐏𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐎𝐖𝐍𝐄𝐑𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐏𝐇𝐎𝐓𝐎𝐎𝐗𝐘𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐄𝐏𝐇𝐎𝐓𝐎𝟑𝟔𝟎𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐌𝐀𝐊𝐄𝐑𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐀𝐍𝐈𝐌𝐄𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐆𝐀𝐌𝐄𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐍𝐒𝐅𝐖𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐑𝐄𝐋𝐈𝐆𝐈𝐎𝐍𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐑𝐀𝐍𝐃𝐎𝐌𝐏𝐇𝐎𝐓𝐎𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐑𝐀𝐍𝐃𝐎𝐌𝐕𝐈𝐃𝐄𝐎𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐒𝐓𝐈𝐂𝐊𝐄𝐑𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐒𝐄𝐀𝐑𝐂𝐇𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐃𝐀𝐓𝐀𝐁𝐀𝐒𝐄𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐋𝐈𝐒𝐓𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐒𝐓𝐀𝐋𝐊𝐄𝐑𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐁𝐔𝐆𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐒𝐓𝐎𝐑𝐄𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐄𝐑𝐌𝐄𝐍𝐔
+  │❏${xprefix}𝐎𝐓𝐇𝐄𝐑𝐌𝐄𝐍𝐔
+  └───────────────────────┈ ⳹
             
-            > ░▒▓█►─═ ℭ𝔯𝔢𝔞𝔱𝔢𝔡 𝔅𝔶 𝔇𝔢𝔟𝔞𝔰𝔥𝔦𝔰 𝔇𝔢𝔶 ═─◄█▓▒░`
+> ░▒▓█►─═ ℭ𝔯𝔢𝔞𝔱𝔢𝔡 𝔅𝔶 𝔇𝔢𝔟𝔞𝔰𝔥𝔦𝔰 𝔇𝔢𝔶 ═─◄█▓▒░`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7996,26 +7996,28 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
             title: xmenu_oh,
+            
             subtitle: themeemoji,
             hasMediaAttachment: false
+            
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
+              },
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -8205,16 +8207,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -8409,16 +8411,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -8613,16 +8615,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -8817,16 +8819,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -9021,16 +9023,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -9225,16 +9227,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -9429,16 +9431,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -9633,16 +9635,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -9837,16 +9839,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -10041,16 +10043,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -10245,16 +10247,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -10449,16 +10451,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -10653,16 +10655,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -10857,16 +10859,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -11061,16 +11063,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -11265,16 +11267,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -11469,16 +11471,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -11673,16 +11675,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -11877,16 +11879,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -12081,16 +12083,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -12285,16 +12287,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
@@ -12489,16 +12491,16 @@ let msg = generateWAMessageFromContent(from, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
               },
               {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
               },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+             {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
               },
               {
                  "name": "cta_url",
