@@ -418,7 +418,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: botname,
 body: ownername,
-thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
 sourceUrl: websitex
 },
 },
@@ -2221,7 +2221,7 @@ case 'block': case 'ban': {
                                 showAdAttribution: true,
                                 title: botname,
                                 body: `Sent in ${i.length} Group`,
-                                thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+                                thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
                                 sourceUrl: websitex,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -3652,7 +3652,7 @@ break
                             showAdAttribution: true,
                             title: botname,
                             body: ownername,
-                            thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+                            thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
                             sourceUrl: websitex,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -3690,7 +3690,7 @@ break
                                 showAdAttribution: true,
                                 title: botname,
                                 body: ownername,
-                                thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+                                thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
                                 sourceUrl: websitex,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -3706,7 +3706,7 @@ break
                                 showAdAttribution: true,
                                 title: botname,
                                 body: ownername,
-                                thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+                                thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
                                 sourceUrl: websitex,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -3727,7 +3727,7 @@ break
                             showAdAttribution: true,
                             title: botname,
                             body: ownername,
-                            thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+                            thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
                             sourceUrl: websitex,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -7945,7 +7945,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -7970,7 +7970,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -8003,34 +8003,38 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" All Menu 📁","id":"${prefix}allmenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
-              },              
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"AI Menu 🤖","id":"${prefix}aimenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+                {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  },
+                  {
+                    "name": "reply",
+                    "buttonParamsJson": `{"display_text":"option 📃","id":"${prefix}othermenu"}`
+                  }
            ],
           })
         })
@@ -8149,7 +8153,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -8175,7 +8179,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -8206,34 +8210,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+                {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner Menu👑","id":"${prefix}ownermenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -8353,7 +8357,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -8379,7 +8383,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -8410,34 +8414,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -8557,7 +8561,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -8583,7 +8587,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -8614,34 +8618,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -8761,7 +8765,7 @@ case 'downloadmenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -8787,7 +8791,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -8818,34 +8822,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -8965,7 +8969,7 @@ case 'groupmenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -8991,7 +8995,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -9022,34 +9026,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -9169,7 +9173,7 @@ case 'gamemenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -9195,7 +9199,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -9226,34 +9230,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -9373,7 +9377,7 @@ case 'funmenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -9399,7 +9403,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -9430,34 +9434,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -9577,7 +9581,7 @@ case 'stalkermenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -9603,7 +9607,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -9634,34 +9638,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -9781,7 +9785,7 @@ case 'randomphotomenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -9807,7 +9811,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -9838,34 +9842,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -9985,7 +9989,7 @@ case 'randomvideomenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -10011,7 +10015,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -10042,34 +10046,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -10189,7 +10193,7 @@ case 'photooxymenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -10215,7 +10219,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -10246,34 +10250,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -10393,7 +10397,7 @@ case 'nsfwmenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -10419,7 +10423,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -10450,34 +10454,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -10597,7 +10601,7 @@ case 'animemenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -10623,7 +10627,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -10654,34 +10658,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -10801,7 +10805,7 @@ case 'stickermenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -10827,7 +10831,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -10858,34 +10862,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -11005,7 +11009,7 @@ case 'databasemenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -11031,7 +11035,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -11062,34 +11066,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -11209,7 +11213,7 @@ case 'searchmenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -11235,7 +11239,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -11266,34 +11270,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -11413,7 +11417,7 @@ case 'storemenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -11439,7 +11443,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -11470,34 +11474,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -11617,7 +11621,7 @@ case 'aimenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -11643,7 +11647,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -11674,34 +11678,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -11821,7 +11825,7 @@ case 'religionmenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -11847,7 +11851,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -11878,34 +11882,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -12025,7 +12029,7 @@ case 'listmenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -12051,7 +12055,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -12082,34 +12086,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -12229,7 +12233,7 @@ case 'convertmenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -12255,7 +12259,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -12286,34 +12290,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
@@ -12433,7 +12437,7 @@ case 'bugmenu': {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -12459,7 +12463,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/ac82d30b1d7acc3fe1ff0.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -12490,34 +12494,34 @@ let msg = generateWAMessageFromContent(from, {
           }),
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":" AI Menu","id":"${prefix}aimenu"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  Game Menu","id":"${prefix}gamemenu"}`
-              },
-             {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"  download Menu","id":"${prefix}downloadmenu"}`
-              },
-              {
-                 "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-  "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
-   },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+               {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"All Menu 📂","id":"${prefix}allmenu"}`
+    },
+                  {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Download Menu ⬇️","id":"${prefix}downloadmenu"}`
+    },
+                 {
+                    "name": "quick_reply",
+                                  "buttonParamsJson": `{"display_text":"  Game Menu 🎯","id":"${prefix}gamemenu"}`
+    },
+                  {
+                     "name": "quick_reply",
+                                     "buttonParamsJson": `{"display_text":" AI Menu 🤖","id":"${prefix}aimenu"}`
+    },
+                  {
+      "name": "cta_url",
+                     "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://wa.me/919339619072\",\"merchant_url\":\"https://www.google.com\"}"
+    },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+                  },
+                  {
+                    "name": "quick_reply",
+                    "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+                  }
            ],
           })
         })
