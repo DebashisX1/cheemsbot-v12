@@ -530,7 +530,7 @@ return arr[Math.floor(Math.random() * arr.length)]
                   if (!('badword' in chats)) chats.badword = false
                   if (!('antiforeignnum' in chats)) chats.antiforeignnum = false
                   if (!('antibot' in chats)) chats.antibot = false
-                  if (!('antiviewonce' in chats)) chats.antiviewonce = false
+                  if (!('antiviewonce' in chats)) chats.antiviewonce = true
                   if (!('antispam' in chats)) chats.antispam = false
                   if (!('antimedia' in chats)) chats.media = false
                   if (!('antivirtex' in chats)) chats.antivirtex = false
@@ -2454,8 +2454,6 @@ if (!isAdmins && !XeonTheCreator) return XeonStickAdmin()
 break
             case 'antiviewonce':{
 		         if (!m.isGroup) return XeonStickGroup()
-if (!isBotAdmins) return XeonStickBotAdmin()
-if (!isAdmins && !XeonTheCreator) return XeonStickAdmin()
                if (args.length < 1) return replygcxeon('on/off?')
                if (args[0] === 'on') {
                   db.data.chats[from].antiviewonce = true
@@ -2957,9 +2955,6 @@ if (!XeonTheCreator) return XeonStickOwner()
                 break
             case 'tagall':
             case 'tag':
-                if (!m.isGroup) return XeonStickGroup()
-                if (!isAdmins && !isGroupOwner && !XeonTheCreator) return XeonStickAdmin()
-                if (!isBotAdmins) return XeonStickBotAdmin()
                 let me = m.sender
                 let teks = `╚»˙·٠${themeemoji}●♥ Tag All ♥●${themeemoji}٠·˙«╝\n😶 *Tagger :*  @${me.split('@')[0]}\n🌿 *Message : ${q ? q : 'no message'}*\n\n`
                 for (let mem of participants) {
@@ -3036,8 +3031,6 @@ case 'demoteall': {
 }
 break
             case 'hidetag':
-                if (!m.isGroup) return XeonStickGroup()
-                if (!isAdmins && !isGroupOwner && !XeonTheCreator) return XeonStickAdmin()
                 if (!isBotAdmins) return XeonStickBotAdmin()
                 XeonBotInc.sendMessage(m.chat, {
                     text: q ? q : '',
@@ -5131,7 +5124,7 @@ await XeonBotInc.sendMessage(m.chat, { react: { text: "✖️",key: m.key,}})
 }
 break
            case 'fb':
-           case 'facebook':
+           case 'facebook': case 'fbvid':
 case 'facebookvid': {
            if (!args[0]) {
     return replygcxeon(`Please send the link of a Facebook video\n\nEXAMPLE :\n*${prefix + command}* https://fb.watch/pLLTM4AFrO/?mibextid=Nif5oz`)
