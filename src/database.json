@@ -169,7 +169,7 @@
       "badword": 0,
       "afkReason": "",
       "nick": "+91 90626 28928",
-      "premium": "false",
+      "premium": false,
       "limit": 100,
       "totalLimit": 0
     },
@@ -290,7 +290,7 @@
       "badword": 0,
       "afkReason": "",
       "nick": "+91 89180 15934",
-      "premium": "false",
+      "premium": false,
       "limit": 100,
       "totalLimit": 0
     },
@@ -367,7 +367,7 @@
       "badword": 0,
       "afkReason": "",
       "nick": "+91 87688 43079",
-      "premium": "false",
+      "premium": false,
       "limit": 100,
       "totalLimit": 0
     },
@@ -378,6 +378,138 @@
       "badword": 0,
       "afkReason": "",
       "nick": "+91 97488 32384",
+      "premium": "false",
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "917439965140@s.whatsapp.net": {
+      "serialNumber": "2be01e8702714367199f5afb36415ce0",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "🦋⃟‌⃟ ͥ ͣ ͫনষ্ট জয় 🖤࿐",
+      "premium": "false",
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "919883388192@s.whatsapp.net": {
+      "serialNumber": "780f604455b380efa978f664a6b8dc03",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "সুলোচনা ✨❤️",
+      "premium": "false",
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "919002161308@s.whatsapp.net": {
+      "serialNumber": "59ec7eaf5f057a40bf9dc43edb357c05",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "faruuuu",
+      "premium": false,
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "916297117315@s.whatsapp.net": {
+      "serialNumber": "fa302c7826a665a52813e1501f3da2cb",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "Swarnabha 🗿",
+      "premium": false,
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "919339523744@s.whatsapp.net": {
+      "serialNumber": "3c5788e41cc198bedefdebc2c6921851",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "Suchana",
+      "premium": "false",
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "916296378718@s.whatsapp.net": {
+      "serialNumber": "87d19d4dd9a1dee97992fe328c8212f1",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "~PIKUU🧿🌜",
+      "premium": false,
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "917479010668@s.whatsapp.net": {
+      "serialNumber": "692c2fea7add12424b8ac4b6725f8946",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "Butterfly",
+      "premium": "false",
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "916291319567@s.whatsapp.net": {
+      "serialNumber": "45ff269d3199b9395c5e1d1e14855407",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "Anu 🥰",
+      "premium": false,
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "919330095041@s.whatsapp.net": {
+      "serialNumber": "75b8b8fbc1d08e50033c2d1da0f0a7d5",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "delete",
+      "premium": false,
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "917439391240@s.whatsapp.net": {
+      "serialNumber": "f12f65fbf5d74753efb022ada5dceb33",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "+91 74393 91240",
+      "premium": false,
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "917047387599@s.whatsapp.net": {
+      "serialNumber": "e0ae732a173551f168bac3b98c7699cd",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "+91 70473 87599",
+      "premium": false,
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "919083065024@s.whatsapp.net": {
+      "serialNumber": "1dfc971ec4a65c2c7bb2bec7dfacb555",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "+91 90830 65024",
       "premium": "false",
       "limit": 100,
       "totalLimit": 0
@@ -409,7 +541,7 @@
       "badword": false,
       "antiforeignnum": false,
       "antibot": false,
-      "antiviewonce": false,
+      "antiviewonce": true,
       "antispam": false,
       "antivirtex": false,
       "antimedia": false,
@@ -424,7 +556,7 @@
       "antilink": false,
       "antipromotion": false,
       "antilinkgc": false,
-      "antipromote": false
+      "antipromote": true
     },
     "120363281188124656@g.us": {
       "badword": false,
@@ -607,7 +739,7 @@
       }
     },
     "15202238877@s.whatsapp.net": {
-      "totalhit": 13,
+      "totalhit": 36,
       "totalError": 0,
       "online": false,
       "autosticker": false,

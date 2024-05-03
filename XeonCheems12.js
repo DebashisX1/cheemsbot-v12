@@ -3267,9 +3267,11 @@ break
 > 📌 ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}⏰
 >  
 > 📌 ᴄʀᴇᴀᴛᴇᴅ ʙʏ : ${ownername} 👑`
-        
+await XeonBotInc.sendMessage(m.chat, { react: { text: `🏃🏼‍♂️`, key: m.key }})
+
                     XeonBotInc.sendMessage(m.chat, {
                         text: ping,
+                      
                     }, {
                         quoted: fgg
                     })
@@ -7973,6 +7975,8 @@ renderLargerThumbnail: true
 quoted: m
 })
 } else if (typemenu === 'v10') {
+    await XeonBotInc.sendMessage(m.chat, { react: { text: `📃`, key: m.key }})
+
 let msg = generateWAMessageFromContent(from, {
   viewOnceMessage: {
     message: {
