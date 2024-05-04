@@ -748,9 +748,11 @@ async function rxns () {
 
 let { key } = await XeonBotInc.sendMessage(from, {text: 'emojies are loading'})
 
+	for (let j=0; j<5; j++){
 for (let i = 0; i < xeonlod.length; i++) {
 await XeonBotInc.sendMessage(from, {text: xeonlod[i], edit: key })
 await sleep(200)
+}
 }
 }
 
