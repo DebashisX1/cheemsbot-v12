@@ -656,6 +656,127 @@
       "premium": "false",
       "limit": 100,
       "totalLimit": 0
+    },
+    "918670392301@s.whatsapp.net": {
+      "serialNumber": "1b4cddf1e2bf0a5db7fe25074d5134e1",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "Arijit Singh 😇💫",
+      "premium": "false",
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "917318856818@s.whatsapp.net": {
+      "serialNumber": "145ca51ed124708f1868ceff9abc20b6",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "Akash✨💖",
+      "premium": false,
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "917864918762@s.whatsapp.net": {
+      "serialNumber": "4fb7cd9ede877f6da66cddbc12632e21",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "917864918762",
+      "premium": false,
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "919832807568@s.whatsapp.net": {
+      "serialNumber": "fcdbf2eb6a3060c7ea01fddf8ac443e3",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "KAKASHI",
+      "premium": false,
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "919907551811@s.whatsapp.net": {
+      "serialNumber": "6b707351422cba21c095812d195f4e80",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "মিশ্রী 💕👀🌸",
+      "premium": "false",
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "919062018593@s.whatsapp.net": {
+      "serialNumber": "eb562e20a48f166227d44b57afcd81b8",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "Nivedita🌚❤‍🩹",
+      "premium": false,
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "918585896886@s.whatsapp.net": {
+      "serialNumber": "f1a45fbf151a5c6581e954bc30f9f363",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "❤️ ｒａｍｅｎ>🌻",
+      "premium": "false",
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "918240785616@s.whatsapp.net": {
+      "serialNumber": "38c6017c27a72ace7bf1e225c89e74ff",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "Rupraj Das🌚🥀",
+      "premium": false,
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "919123876692@s.whatsapp.net": {
+      "serialNumber": "8a64ff40bdaa698ddad6743a0520c6a8",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "𝕴𝖙𝖘_𝖆𝖇𝖎𝖗",
+      "premium": "false",
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "916290295572@s.whatsapp.net": {
+      "serialNumber": "31c63824fc37e880e6681e8323b264db",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "King 👑",
+      "premium": false,
+      "limit": 100,
+      "totalLimit": 0
+    },
+    "917047045164@s.whatsapp.net": {
+      "serialNumber": "4d24b995962d798140067657edb042aa",
+      "title": "User",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "𝐑𝘂𝗽🦄",
+      "premium": false,
+      "limit": 100,
+      "totalLimit": 0
     }
   },
   "chats": {
@@ -903,7 +1024,7 @@
       }
     },
     "15202238877@s.whatsapp.net": {
-      "totalhit": 83,
+      "totalhit": 105,
       "totalError": 0,
       "online": false,
       "autosticker": false,
