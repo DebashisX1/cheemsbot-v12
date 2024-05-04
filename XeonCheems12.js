@@ -3439,7 +3439,7 @@ await sleep(300)
                     }, {
                         quoted: fgg
                     })
-for >i=0;i<5;i++){
+for (i=0;i<5;i++){
 await XeonBotInc.sendMessage(m.chat, { react: { text: `😀`, key: m.key }})
 await sleep(100)
 await XeonBotInc.sendMessage(m.chat, { react: { text: `😁`, key: m.key }})
