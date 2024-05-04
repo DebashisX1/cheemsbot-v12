@@ -241,6 +241,8 @@ XeonLft = await getBuffer(ppuser)
                 if (anu.action == 'add') {
                 const xeonbuffer = await getBuffer(ppuser)
                 let xeonName = num
+                let bio = await XeonBotInc.fetchStatus(num)
+                let username =XeonBotInc.getName(num)
                 const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 const xmembers = metadata.participants.length
@@ -248,6 +250,8 @@ const xmembers = metadata.participants.length
 ┌────────❖ 𝕮𝖍𝖊𝖊𝖒𝖘 𝕭𝖔𝖙 ❖────────┐
 │「 𝗛𝗶 👋 」
 └┬❖ 「  @${xeonName.split("@")[0]}  」
+   │✑  𝖀𝖘𝖊𝖗𝖓𝖆𝖒𝖊: ${username}
+   │✑  𝕬𝖇𝖔𝖚𝖙  : ${bio}
    │✑  𝖂𝖊𝖑𝖈𝖔𝖒𝖊 𝕿𝖔 : ${metadata.subject}
    │✑  𝕸𝖊𝖒𝖇𝖊𝖗 : ${xmembers}th
    │✑  𝕵𝖔𝖎𝖓𝖊𝖉 𝖔𝖓 : 
@@ -290,11 +294,16 @@ XeonBotInc.sendMessage(anu.id,
 	                const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 	let xeonName = num
                     const xeonmembers = metadata.participants.length
+                    let bio = await XeonBotInc.fetchStatus(num)
+                    let username =XeonBotInc.getName(num)
+
                     xeonbody =`
 ┌────────❖ 𝕮𝖍𝖊𝖊𝖒𝖘 𝕭𝖔𝖙 ❖────────┐
 │「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
 └┬❖ 「 @${xeonName.split("@")[0]}  」
    │✑  𝕷𝖊𝖋𝖙 𝕱𝖗𝖔𝖒: ${metadata.subject}
+   │✑  𝖀𝖘𝖊𝖗𝖓𝖆𝖒𝖊: ${username}
+   │✑  𝕬𝖇𝖔𝖚𝖙  : ${bio}
    │✑  𝕸𝖊𝖒𝖇𝖊𝖗 :  ${xeonmembers}th
     | 𝕷𝖊𝖋𝖙 𝕺𝖓 :
    │             𝕯𝖆𝖙𝖊: ${xtime} 

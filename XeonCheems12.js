@@ -157,6 +157,7 @@ others: {},
 users: {},
 chats: {},
 settings: {},
+antipromote: {},
 ...(global.db.data || {})
 }
 
@@ -339,7 +340,7 @@ const subscribe_dgxeon = {
 },
 message: {
 "listResponseMessage": {
-title: `Xeon's ur father`
+title: `fuck you bitch`
 }}
 }
 async function XeonyCrashy(dgxeon,chat) {
@@ -706,6 +707,37 @@ let { key } = await XeonBotInc.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
 
 for (let i = 0; i < xeonlod.length; i++) {
 await XeonBotInc.sendMessage(from, {text: xeonlod[i], edit: key })
+}
+}
+
+async function cmd () {
+    var xeonlod = [
+    " 😀",
+    " 😀",
+    " 😁",
+    " 😂",
+    " 🤣",
+    " 😃",
+    " 😄",
+    " 😅",
+    " 😆",
+    " 😉",
+    " 😊",
+    " 😋",
+    " 😎",
+    " 😍",
+    " 😘",
+    " 🥰",
+    " 😗",
+    " 😙",
+    
+    ]
+    
+let { key } = await XeonBotInc.sendMessage(from, {text: 'emojies are loading'})
+
+for (let i = 0; i < xeonlod.length; i++) {
+await XeonBotInc.sendMessage(from, {text: xeonlod[i], edit: key })
+await sleep(100)
 }
 }
 
@@ -3039,7 +3071,7 @@ break
                     quoted: m
                 })
             break
-            case 'totag':
+            case 'totag': case 'tagmedia' :
                 if (!m.isGroup) return XeonStickGroup()
                 if (!isBotAdmins) return XeonStickBotAdmin()
                 if (!isAdmins) return replygcxeon(mess.admin)
@@ -3078,6 +3110,7 @@ break
             case 'linkgrup':
             case 'linkgc':
             case 'gclink':
+            case 'glink':
             case 'grouplink':
             case 'gruplink':
                 if (!m.isGroup) return XeonStickGroup()
@@ -3106,7 +3139,6 @@ break
     }
   }
 }
-break
         break
         case 'vote': {
             if (!m.isGroup) return XeonStickGroup()
@@ -3257,7 +3289,7 @@ break
             break
                 //bot status
                 case 'ping': case 'botstatus': case 'statusbot': case 'p':
-                    let fgg = { key: { fromMe: true, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `꧁﴿.·»✥«·-𝕯𝕯 𝕮𝖍𝖊𝖊𝖒𝖘-𝕭𝖔𝖙-·»✥«.·﴾꧂\n 😎😎===================================😎😎\n Created by: ${ownername}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'CHEEMS-BOT'\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
+                    let fgg = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `꧁﴿.·»✥«·-𝕯𝕯 𝕮𝖍𝖊𝖊𝖒𝖘-𝕭𝖔𝖙-·»✥«.·﴾꧂\n Created by: ${ownername}😎`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'CHEEMS-BOT'\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
                     let timestampe = speed()
                     let latensie = speed() - timestampe
                      let ping = `> 📌 Hey there, 🤗
@@ -3268,13 +3300,40 @@ break
 >  
 > 📌 ᴄʀᴇᴀᴛᴇᴅ ʙʏ : ${ownername} 👑`
 await XeonBotInc.sendMessage(m.chat, { react: { text: `🏃🏼‍♂️`, key: m.key }})
-
+await sleep(300)
                     XeonBotInc.sendMessage(m.chat, {
                         text: ping,
                       
                     }, {
                         quoted: fgg
                     })
+await XeonBotInc.sendMessage(m.chat, { react: { text: `😀`, key: m.key }})
+await sleep(100)
+await XeonBotInc.sendMessage(m.chat, { react: { text: `😁`, key: m.key }})
+await sleep(100)
+await XeonBotInc.sendMessage(m.chat, { react: { text: `😂`, key: m.key }})
+await sleep(100)
+await XeonBotInc.sendMessage(m.chat, { react: { text: `🤣`, key: m.key }})
+await sleep(100)
+await XeonBotInc.sendMessage(m.chat, { react: { text: `😃`, key: m.key }})
+await sleep(100)
+await XeonBotInc.sendMessage(m.chat, { react: { text: `😄`, key: m.key }})
+await sleep(100)
+await XeonBotInc.sendMessage(m.chat, { react: { text: `😅`, key: m.key }})
+await sleep(100)
+await XeonBotInc.sendMessage(m.chat, { react: { text: `😆`, key: m.key }})
+await sleep(100)
+await XeonBotInc.sendMessage(m.chat, { react: { text: `😉`, key: m.key }})
+await sleep(100)
+await XeonBotInc.sendMessage(m.chat, { react: { text: `😊`, key: m.key }})
+await sleep(100)
+await XeonBotInc.sendMessage(m.chat, { react: { text: `😋`, key: m.key }})
+await sleep(100)
+await XeonBotInc.sendMessage(m.chat, { react: { text: `😎`, key: m.key }})
+await sleep(100)
+await XeonBotInc.sendMessage(m.chat, { react: { text: `😍`, key: m.key }})
+await sleep(100)
+await XeonBotInc.sendMessage(m.chat, { react: { text: `😘`, key: m.key }})
                     break
         case 'relay':
         if (!isPremium) return replygcxeon(mess.premium)
@@ -3289,7 +3348,7 @@ await XeonBotInc.sendMessage(m.chat, { react: { text: `🏃🏼‍♂️`, key: 
             
               break
               
-case 'u':
+case 'username':
     {
        let user= m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') 
        let username =XeonBotInc.getName(user)
@@ -3311,7 +3370,9 @@ case 'u':
     })
     }
     break
-
+    case 'emojies':
+        await cmd()
+        break
     case 'family': case 'fm' : {
         if (!m.isGroup) return XeonStickGroup()
         function getRandomPercentage() {
