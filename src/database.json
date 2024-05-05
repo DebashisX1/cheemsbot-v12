@@ -1,12 +1,4 @@
 {
-  "sticker": {},
-  "database": {},
-  "game": {
-    "math": []
-  },
-  "others": {
-    "vote": []
-  },
   "users": {
     "918768298758@s.whatsapp.net": {
       "serialNumber": "efe9b8fea5d54cec1843c3d2936db70f",
@@ -513,8 +505,20 @@
       "premium": "false",
       "limit": 100,
       "totalLimit": 0
+    },
+    "919163845312@s.whatsapp.net": {
+      "serialNumber": "e72303f60a6c7df11628f466819a3202",
+      "title": "Premium",
+      "afkTime": -1,
+      "badword": 0,
+      "afkReason": "",
+      "nick": "+91 91638 45312",
+      "premium": "true",
+      "limit": 1000,
+      "totalLimit": 0
     }
   },
+  "database": {},
   "chats": {
     "918768298758@s.whatsapp.net": {
       "badword": false,
@@ -704,7 +708,31 @@
       "antilink": false,
       "antipromotion": false,
       "antilinkgc": false
+    },
+    "919163845312@s.whatsapp.net": {
+      "badword": false,
+      "antiforeignnum": false,
+      "antibot": false,
+      "antipromote": false,
+      "antiviewonce": true,
+      "antispam": false,
+      "antivirtex": false,
+      "antimedia": false,
+      "antiimage": false,
+      "antivideo": false,
+      "antiaudio": false,
+      "antipoll": false,
+      "antisticker": false,
+      "antilocation": false,
+      "antidocument": false,
+      "anticontact": false,
+      "antilink": false,
+      "antipromotion": false,
+      "antilinkgc": false
     }
+  },
+  "game": {
+    "math": []
   },
   "settings": {
     "918768298758@s.whatsapp.net": {
@@ -768,8 +796,43 @@
           "alias": "919339619072"
         }
       }
+    },
+    "919163845312@s.whatsapp.net": {
+      "totalhit": 5,
+      "totalError": 0,
+      "online": false,
+      "autosticker": false,
+      "autodownload": false,
+      "autobio": false,
+      "autoread": false,
+      "autoblocknum": false,
+      "onlyindia": false,
+      "onlyindo": false,
+      "onlygrub": false,
+      "onlypc": false,
+      "autorecordtype": false,
+      "autorecord": false,
+      "autotype": false,
+      "watermark": {
+        "packname": "Sticker By",
+        "author": "Debashis Dey\n\n+919339619072"
+      },
+      "about": {
+        "bot": {
+          "nick": "+91 91638 45312",
+          "alias": "꧁﴿·⁎̩͙ ⁑̩͙̩͙ ⁂̩̩͙»✥«·-𝕯𝕯 𝕮𝖍𝖊𝖊𝖒𝖘-𝕭𝖔𝖙-·»✥«⁂̩̩͙͙ ⁑̩͙̩͙ ⁎̩͙.·﴾꧂"
+        },
+        "owner": {
+          "nick": "Debashis Birbhum",
+          "alias": "919339619072"
+        }
+      }
     }
   },
   "message": {},
-  "antipromote": {}
+  "antipromote": {},
+  "sticker": {},
+  "others": {
+    "vote": []
+  }
 }
