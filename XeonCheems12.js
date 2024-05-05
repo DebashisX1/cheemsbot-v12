@@ -739,6 +739,8 @@ async function introduction ()
         "Hi this is ꧁﴿·⁎̩͙ ⁑̩͙̩͙ ⁂̩̩͙»✥«·-𝕯𝕯 𝕮𝖍𝖊𝖊𝖒𝖘-𝕭𝖔𝖙-·»✥«⁂̩̩͙͙ ⁑̩͙̩͙ ⁎̩͙.·﴾꧂ created by 𝔇𝔢𝔟𝔞𝔰𝔥𝔦𝔰 𝔇𝔢𝔶. To know more send .Allmenu \n\n Also follow me on my social media profiles 🛜 \n 📌Facebook : https://www.facebook.com/Debashi.Dey.X1/ \n 🔑 Instagram : https://www.instagram.com/debashis_x1/",
         "Hi this is ꧁﴿·⁎̩͙ ⁑̩͙̩͙ ⁂̩̩͙»✥«·-𝕯𝕯 𝕮𝖍𝖊𝖊𝖒𝖘-𝕭𝖔𝖙-·»✥«⁂̩̩͙͙ ⁑̩͙̩͙ ⁎̩͙.·﴾꧂ created by 𝔇𝔢𝔟𝔞𝔰𝔥𝔦𝔰 𝔇𝔢𝔶. To know more send .Allmenu \n\n Also follow me on my social media profiles 🛜 \n 📌Facebook : https://www.facebook.com/Debashi.Dey.X1/ \n 🔑 Instagram : https://www.instagram.com/debashis_x1/ \n 🦄 GitHub : ",
         "Hi this is ꧁﴿·⁎̩͙ ⁑̩͙̩͙ ⁂̩̩͙»✥«·-𝕯𝕯 𝕮𝖍𝖊𝖊𝖒𝖘-𝕭𝖔𝖙-·»✥«⁂̩̩͙͙ ⁑̩͙̩͙ ⁎̩͙.·﴾꧂ created by 𝔇𝔢𝔟𝔞𝔰𝔥𝔦𝔰 𝔇𝔢𝔶. To know more send .Allmenu \n\n Also follow me on my social media profiles 🛜 \n 📌Facebook : https://www.facebook.com/Debashi.Dey.X1/ \n 🔑 Instagram : https://www.instagram.com/debashis_x1/ \n 🦄 GitHub : https://github.com/DebashisX1/",
+        "Hi this is ꧁﴿·⁎̩͙ ⁑̩͙̩͙ ⁂̩̩͙»✥«·-𝕯𝕯 𝕮𝖍𝖊𝖊𝖒𝖘-𝕭𝖔𝖙-·»✥«⁂̩̩͙͙ ⁑̩͙̩͙ ⁎̩͙.·﴾꧂ created by 𝔇𝔢𝔟𝔞𝔰𝔥𝔦𝔰 𝔇𝔢𝔶. To know more send .Allmenu \n\n Also follow me on my social media profiles 🛜 \n 📌Facebook : https://www.facebook.com/Debashi.Dey.X1/ \n 🔑 Instagram : https://www.instagram.com/debashis_x1/ \n 🦄 GitHub : https://github.com/DebashisX1/ \n WhatsApp : 👇",
+	    
 
     ]
     
@@ -3551,7 +3553,7 @@ case 'username':
     case 'emojies':
         await rxns()
         break
-        case 'intro':
+        case 'intro': case 'hi' : case 'hello':
                 let Intro = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `DEBASHIS DEY \n INTRODUCING »✥«·-𝕯𝕯 𝕮𝖍𝖊𝖊𝖒𝖘-𝕭𝖔𝖙-·»✥«`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'CHEEMS-BOT'\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
 
             await introduction()
