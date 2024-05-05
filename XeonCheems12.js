@@ -772,14 +772,30 @@ async function rxns () {
     " 🥰",
     " 😗",
     " 😙",
+    " 🤩",
+    " 🥳",
+    " 🫠",
+    " 🙃",
+    " 🙂",
+    " 🥹",
+    " 😊",
+    " ☺️",
+    " 😛",
+    " 😝",
+    " 😜",
+    " 🤪",
+    " 🤭",
+    " 🤗",
 
     ]
 
 let { key } = await XeonBotInc.sendMessage(from, {text: 'emojies are loading'})
 
+	for (let j=0; j<5; j++){
 for (let i = 0; i < xeonlod.length; i++) {
 await XeonBotInc.sendMessage(from, {text: xeonlod[i], edit: key })
-await sleep(100)
+await sleep(200)
+}
 }
 }
 
@@ -788,7 +804,7 @@ async function teddy () {
 `‎‎ ∩_∩
 (  ° • ° )
 | > > 🥰 
-|^`,
+|_^_|`,
 `‎‎ ∩_∩
 ( ° • ° )
 | > > 😍 
@@ -833,7 +849,7 @@ async function teddy () {
 ( ° • ° )
 | > > ❤️‍🩹 
 |_^_|`,
-`‎‎∩_∩
+`‎‎ ∩_∩
 ( ° • ° )
 | > > ❤️ 
 |_^_|`,
@@ -896,7 +912,7 @@ let { key } = await XeonBotInc.sendMessage(from, {text: 'emojies are loading'})
 
 for (let i = 0; i < xeonlod.length; i++) {
 await XeonBotInc.sendMessage(from, {text: xeonlod[i], edit: key })
-await sleep(100)
+await sleep(200)
 }
 }
 
@@ -3466,6 +3482,7 @@ await sleep(300)
                     }, {
                         quoted: fgg
                     })
+for (i=0;i<5;i++){
 await XeonBotInc.sendMessage(m.chat, { react: { text: `😀`, key: m.key }})
 await sleep(100)
 await XeonBotInc.sendMessage(m.chat, { react: { text: `😁`, key: m.key }})
@@ -3493,7 +3510,9 @@ await sleep(100)
 await XeonBotInc.sendMessage(m.chat, { react: { text: `😍`, key: m.key }})
 await sleep(100)
 await XeonBotInc.sendMessage(m.chat, { react: { text: `😘`, key: m.key }})
-                    break
+}
+await XeonBotInc.sendMessage(m.chat, { react: { text: `✌️🎤⛈️`, key: m.key }})
+		break
         case 'relay':
         if (!isPremium) return replygcxeon(mess.premium)
            let message = q ? q : ''
