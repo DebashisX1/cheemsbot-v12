@@ -784,15 +784,15 @@ await sleep(20)
 }
 		    var hand = [
 			    `)✊========> 💦`,
-			    await sleep(20),
+	
 			    `)✊=======>  💦`,
-			    await sleep(20),
+			    
 			    `)✊========> 💦 💦`,
-			    await sleep(20),
+	
 			    `)✊=======>  💦 💦`,
-			    await sleep(20),
+
 			    `)✊========> 💦 💦 💦`,
-			    await sleep(20),
+
 			    ]
 		    for (let k = 0; k < hand.length; k++) {
 await XeonBotInc.sendMessage(from, {text: hand[k], edit: key })
