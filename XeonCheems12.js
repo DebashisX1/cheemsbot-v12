@@ -779,7 +779,7 @@ await sleep(200)
 	for (let j=0; j<20; j++){
 for (let i = 0; i < xeonlod.length; i++) {
 await XeonBotInc.sendMessage(from, {text: xeonlod[i], edit: key })
-await sleep(20)
+await sleep(50)
 }
 }
 		    var hand = [
