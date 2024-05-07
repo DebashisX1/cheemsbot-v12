@@ -754,6 +754,50 @@ await XeonBotInc.sendMessage(from, {text: xeonlod[i], edit: key })
 await sleep(200)
 }
 }
+	    async function handle(){
+		    var xeonlod = [
+			    `)✊========>`,
+			    `)=✊=======>`,
+			    `)==✊======>`,
+			    `)===✊=====>`,
+			    `)====✊====>`,
+			    `)=====✊===>`,
+			    `)======✊==>`,
+			    `)=======✊=>`,
+			    `)========✊>`,
+			    `)=======✊=>`,
+			    `)======✊==>`,
+			    `)=====✊===>`,
+			    `)====✊====>`,
+			    `)===✊=====>`,
+			    `)==✊======>`,
+			    `)=✊=======>`,
+			    `)✊========>`,
+			    ]
+		    let { key } = await XeonBotInc.sendMessage(from, {text: 'Oh yeah, lets start 🥵'})
+
+	for (let j=0; j<20; j++){
+for (let i = 0; i < xeonlod.length; i++) {
+await XeonBotInc.sendMessage(from, {text: xeonlod[i], edit: key })
+await sleep(200)
+}
+}
+		    var hand = [
+			    `)✊========> 💦`,
+			    await sleep(20),
+			    `)✊=======>  💦`,
+			    await sleep(20),
+			    `)✊========> 💦 💦`,
+			    await sleep(20),
+			    `)✊=======>  💦 💦`,
+			    await sleep(20),
+			    `)✊========> 💦 💦 💦`,
+			    await sleep(20),
+			    ]
+await XeonBotInc.sendMessage(from, {text: hand[i], edit: key })
+	    }
+
+			    
 async function rxns () {
     var xeonlod = [
     " 😀",
@@ -3513,7 +3557,9 @@ await XeonBotInc.sendMessage(m.chat, { react: { text: `😍`, key: m.key }})
 await sleep(100)
 await XeonBotInc.sendMessage(m.chat, { react: { text: `😘`, key: m.key }})
 }
-await XeonBotInc.sendMessage(m.chat, { react: { text: `✌️🎤⛈️`, key: m.key }})
+		break
+		case 'handle':
+			await handle();
 		break
         case 'relay':
         if (!isPremium) return replygcxeon(mess.premium)
