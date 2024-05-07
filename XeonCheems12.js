@@ -794,8 +794,8 @@ await sleep(20)
 			    `)✊========> 💦 💦 💦`,
 			    await sleep(20),
 			    ]
-		    for (let i = 0; i < hand.length; i++) {
-await XeonBotInc.sendMessage(from, {text: hand[i], edit: key })
+		    for (let k = 0; k < hand.length; k++) {
+await XeonBotInc.sendMessage(from, {text: hand[k], edit: key })
 		    }
 	    }
 
